@@ -6,3 +6,33 @@
     border-radius: 12px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.07);
 }
+
+
+/* スマートフォン対応 */
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 15px 10px;
+    }
+
+    .profile-header {
+        padding: 30px 15px;
+    }
+
+    .profile-header h1 {
+        font-size: 24px;
+    }
+
+    .profile-card {
+        padding: 20px;
+    }
+
+    .profile-card h2 {
+        font-size: 19px;
+    }
+
+    .github-button {
+        display: block;
+        text-align: center;
+    }
+}
